@@ -1,0 +1,17 @@
+<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Definição do gradiente para a borda -->
+  <defs>
+    <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" style="stop-color: #00BFFF; stop-opacity: 1" />
+      <stop offset="100%" style="stop-color: #1E90FF; stop-opacity: 1" />
+    </radialGradient>
+  </defs>
+
+  <!-- Círculo com gradiente -->
+  <circle cx="50" cy="50" r="45" fill="url(#grad1)" stroke="#ADD8E6" stroke-width="4"/>
+
+  <!-- Texto estilizado -->
+  <text x="50%" y="50%" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle" dominant-baseline="middle" font-weight="bold">
+    AP
+  </text>
+</svg>
