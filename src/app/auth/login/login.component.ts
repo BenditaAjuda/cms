@@ -44,6 +44,7 @@ export class LoginComponent {
 
   sair() {
     this.authService.logout();
+    console.log("Saiu");
   }
 
   recuperarSenha() {

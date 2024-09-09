@@ -20,15 +20,12 @@
                 <input matInput [type]="hide ? 'senha' : 'text'" formControlName="senha" required>
                 <mat-error *ngIf="checkError('senha', 'required')">Obrigatório</mat-error>
               </mat-form-field>
-              <button mat-raised-button color="primary" type="submit" [disabled]="!loginForm.valid">
+              <button mat-flat-button [disabled]="!loginForm.valid">
                Login
               </button>
             </form>
-            <button (click)="recuperarSenha()" mat-raised-button>
+            <button (click)="sair()" mat-raised-button>
               Recuperar Senha
-             </button>
-             <button (click)="sair()" mat-raised-button>
-              Sair
              </button>
           </mat-card>
       </div>
